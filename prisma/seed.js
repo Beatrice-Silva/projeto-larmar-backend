@@ -6,7 +6,7 @@ import { PrismaPg } from '@prisma/adapter-pg';
 const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL });
 const prisma = new PrismaClient({ adapter });
 
-const categorias = ['Cabelo', 'Barba', 'Estética'];
+const categorias = ['lazer', 'culinária', 'estética', 'entreterimento'];
 
 for (const nome of categorias) {
   await prisma.categoria.upsert({

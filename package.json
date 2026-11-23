@@ -21,5 +21,16 @@
   },
   "devDependencies": {
     "prisma": "^7.10.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beatrice-Silva/projeto-larmar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Beatrice-Silva/projeto-larmar/issues"
+  },
+  "homepage": "https://github.com/Beatrice-Silva/projeto-larmar#readme"
 }
